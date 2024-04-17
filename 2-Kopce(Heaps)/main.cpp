@@ -10,14 +10,14 @@ using namespace std;
 // na moj stan wiedzy domyslnie tablice sa typem referencyjnym?
 // w przeciwnym razie kod nie dziala prawidlowo, stad zapis int*& array
 
-// flaga dla funkcji heap_sort i heap_pop ktora kontroluje wyswietlanie
-// prawidlowego kopca zamiast pomocniczego
+// flaga ktora kontroluje wyswietlanie prawidlowego kopca zamiast pomocniczego
 bool print_flag = false;
 
 void swap_down(int*& heap, int i, int& size);
 void heapify(int*& heap, int& size);
 void heap_insert(int*& heap, int& size, int element);
 void heap_pop(int*& heap, int& size);
+void heap_sort(int*& heap, int size);
 void array_insert(int*& array, int& size, int value);
 void array_pop(int*& array, int& size);
 void array_print(int* array, int size);
