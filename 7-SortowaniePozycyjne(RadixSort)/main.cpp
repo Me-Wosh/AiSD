@@ -1,3 +1,7 @@
+// Milosz Samotyjak
+// Grupa 235 IC B1
+// AISD 7 - sortowanie pozycyjne
+
 #include <iostream>
 #include <random>
 
