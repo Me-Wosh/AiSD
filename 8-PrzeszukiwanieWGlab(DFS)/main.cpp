@@ -1,3 +1,7 @@
+// Milosz Samotyjak
+// Grupa 235 IC B1
+// AISD 8 - przeszukiwanie w glab
+
 #include <iostream>
 #include <vector>
 #include <cmath>
